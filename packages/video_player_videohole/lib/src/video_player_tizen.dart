@@ -8,7 +8,7 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
-import 'package:video_player_platform_interface/video_player_platform_interface.dart';
+import 'package:video_player_platform_interface/video_player_platform_interface.dart' hide AudioTrack;
 import 'messages.g.dart';
 import 'tracks.dart';
 
